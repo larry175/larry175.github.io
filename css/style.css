@@ -9,12 +9,12 @@ body {
 }
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #d90429;
   text-align: center;
 }
 
 header {
-  font-family: Work Sans;
+  font-family: Fjalla One, sans-serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -32,19 +32,19 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: Cantarell, sans-serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
   line-height: 1.3;
 }
 h2 {
-  font-family: Poppins;
+  font-family: Cantarell, sans-serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #d90429;
   padding: 10px 0px 10px 10px;
 }
 
@@ -64,7 +64,7 @@ img {
 .bio {
 color: #ffffff;
 font-size: 24px;
-font-family: 'Work Sans';
+font-family: 'Fjalla One', sans-serif;
 }
 
 .buttonBox {
@@ -85,7 +85,7 @@ font-family: 'Work Sans';
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color: #d90429;
 }
 
 .myButton:active {
@@ -115,7 +115,7 @@ font-family: 'Work Sans';
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: Cantarell, sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -126,7 +126,7 @@ font-family: 'Work Sans';
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: Fjalla One, sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
@@ -156,4 +156,8 @@ footer {
   main {
     grid-template-columns: 1fr;
   }
+}
+
+a {
+  color: #7209b7;
 }
