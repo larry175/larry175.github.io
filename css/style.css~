@@ -1,3 +1,13 @@
+/* Set the scroll behavior to smooth so that when you click the in the header, the screen scrolls down rather than jumps */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set the margin to 0 to make sure the page stretches all the way to the edge of the browser window. */
+body {
+  margin: 0;
+}
+
 header, footer {
   background-color: #ffa500;
   text-align: center;
@@ -6,11 +16,9 @@ header, footer {
 
 main {
   display: grid;
-  grid-template-columns: 250px 250px;
-  grid-template-rows: repeat(3, 450px);
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
   grid-gap: 20px;
   margin-top: 44px;
-  grid-auto-rows: 500px;
   justify-items: center;
   justify-content: center;
   align-items: stretch;
@@ -33,6 +41,19 @@ img {
   height: auto;
   object-fit: cover;
   object-fit: top center
+}
+
+.wrapper {
+    max-width: 1150px;
+    margin: auto;
+    padding: 50px;
+    display: block;
+}
+
+.bio {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Work Sans';
 }
 
 .recipe {
@@ -87,7 +108,7 @@ img {
 }
 
 .container {
-  min-width: 500px;
+  /*  min-width: 500px; */
   margin: auto;
 }
 
